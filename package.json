@@ -1,0 +1,39 @@
+{
+  "name": "grunt-of-ocaml",
+  "description": "Compile OCaml code to JavaScript with js_of_ocaml",
+  "version": "0.1.0",
+  "homepage": "https://github.com/woxtu/grunt-of-ocaml",
+  "author": {
+    "name": "woxtu",
+    "email": "woxtup@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/woxtu/grunt-of-ocaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/woxtu/grunt-of-ocaml/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/woxtu/grunt-of-ocaml/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin", "ocaml"
+  ]
+}
