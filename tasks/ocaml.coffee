@@ -24,10 +24,10 @@ module.exports = (grunt) ->
           true
 
       args = ['ocamlc']
-      .concat syntax
-      .concat package_
-      .concat ['-linkpkg', '-thread', '-o', 'out.byte']
-      .concat files
+        .concat syntax
+        .concat package_
+        .concat ['-linkpkg', '-thread', '-o', 'out.byte']
+        .concat files
 
       grunt.util.spawn cmd: 'ocamlfind', args: args, (error, result, code) ->
         if error
