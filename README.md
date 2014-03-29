@@ -23,7 +23,7 @@ $ npm install grunt-of-ocaml --save-dev
 Include the task in your Gruntfile:
 
 ```coffee
-grunt.loadNpmTasks 'ocaml'
+grunt.loadNpmTasks 'grunt-of-ocaml'
 ```
 
 Create a config block within your Gruntfile:
