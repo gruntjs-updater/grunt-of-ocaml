@@ -11,12 +11,12 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     ocaml:
-      options:
-        syntax: []
-        package: []
       compile:
         files:
           'main.js': ['source/**.ml']
+        options:
+          syntax: []
+          package: []
 
   grunt.loadTasks 'tasks'
   grunt.registerTask 'default', ['ocaml']
