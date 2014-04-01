@@ -1,7 +1,7 @@
 {
   "name": "grunt-of-ocaml",
   "description": "Compile OCaml code to JavaScript with js_of_ocaml",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/woxtu/grunt-of-ocaml",
   "author": {
     "name": "woxtu",
